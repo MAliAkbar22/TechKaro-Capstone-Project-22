@@ -1,0 +1,64 @@
+.feature-text p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #3270FF;
+}
+
+.feature-text h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B2336;
+}
+
+.feature-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+.card{
+    height: 352px;
+    width: 306px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.card img{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-right: 150px;
+}
+
+.card h1{
+    margin-left: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card p{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 45px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #415674;
+}
