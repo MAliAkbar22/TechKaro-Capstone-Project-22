@@ -40,14 +40,14 @@ form {
   justify-content: center;
 }
 
-label {
+form label {
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 16px;
   color: #1b2336;
 }
 
-input {
+form input {
   height: 50px;
   width: 300px;
   background: #f8fafb;
@@ -55,14 +55,14 @@ input {
   border-radius: 5px;
 }
 
-input::placeholder {
+form input::placeholder {
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 16px;
   color: #666666;
 }
 
-select {
+form select {
   height: 50px;
   width: 300px;
   background: #f8fafb;
@@ -70,7 +70,7 @@ select {
   border-radius: 5px;
 }
 
-option {
+form option {
   height: 50px;
   width: 300px;
   background: #f8fafb;

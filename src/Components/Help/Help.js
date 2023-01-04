@@ -1,7 +1,7 @@
 import React from "react";
 import "./HelpStyle.css";
 import HelpImg from "../../Images/help.png";
-import HelpArrow from "../../Images/help-arrow.png";
+// import HelpArrow from "../../Images/help-arrow.png";
 import CheckImg from "../../Images/circle-check.png";
 
 const Help = () => {
