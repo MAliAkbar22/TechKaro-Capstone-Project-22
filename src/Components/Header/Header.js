@@ -1,7 +1,8 @@
 import React from 'react'
 import './HeaderStyle.css'
 import logo from '../../Images/logo.png'
-import phone from '../../Images/phone.png'
+// import phone from '../../Images/phone.png'
+import { FaPhoneAlt, FaSearch } from "react-icons/fa";
 
 const Header = () => {
     return (
@@ -22,10 +23,13 @@ const Header = () => {
                         </ul>
                     </nav>
                     <div className="search-box">
-                        <input type="text" placeholder='Search' />
+                        <input type="text" placeholder='Search...' />
+                        <FaSearch className="search-icon" />
                     </div>
                     <div className="phone-btn">
-                            <img className="phone-icon" src={phone} alt="Phone-Img" />
+                        <div className="phone-icon">
+                            <FaPhoneAlt/>
+                        </div>
                             <p className="phone-number">+92(000) 984 2020</p>
                     </div>
                     <div className="header-btn">

@@ -1,0 +1,45 @@
+.count-container {
+  background-color: #0841ce;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  padding: 100px;
+  margin-bottom: 100px;
+}
+
+.count-left {
+  background: url("../../Images/count-left.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-right {
+  background: url("../../Images/count-right.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-card {
+  padding: 15px 50px;
+}
+
+.counter-card h2 {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.counter-card p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}

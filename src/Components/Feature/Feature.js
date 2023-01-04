@@ -11,27 +11,27 @@ const Feature = () => {
             <div className="container">
                 <div className="feature-text">
                     <p>What We Do</p>
-                    <h1>Features Providers and Patients Love</h1>
+                    <h2>Features Providers and Patients Love</h2>
                 </div>
                 <div className="feature-cards">
                     <div className="card">
                         <img src={fimg1} alt="Feature-Img" />
-                        <h1>24/7 Support</h1>
+                        <h2>24/7 Support</h2>
                         <p>Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Quisque velit nisi pretium ut lacinia in elementum id enim.</p>
                     </div>
                     <div className="card">
                         <img src={fimg2} alt="Feature-Img" />
-                        <h1>Maximize Revenue</h1>
+                        <h2>Maximize Revenue</h2>
                         <p>Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Quisque velit nisi pretium ut lacinia in elementum id enim.</p>
                     </div>
                     <div className="card">
                         <img src={fimg3} alt="Feature-Img" />
-                        <h1>Health Plans</h1>
+                        <h2>Health Plans</h2>
                         <p>Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Quisque velit nisi pretium ut lacinia in elementum id enim.</p>
                     </div>
                     <div className="card">
                         <img src={fimg4} alt="Feature-Img" />
-                        <h1>Intuitive Scheduling</h1>
+                        <h2>Intuitive Scheduling</h2>
                         <p>Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Quisque velit nisi pretium ut lacinia in elementum id enim.</p>
                     </div>
                 </div>

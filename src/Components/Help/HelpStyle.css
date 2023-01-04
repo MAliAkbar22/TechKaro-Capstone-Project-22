@@ -1,0 +1,78 @@
+.help-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 120px;
+  margin-bottom: 50px;
+}
+
+.help-left h3 {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #1683fc;
+  margin-bottom: 10px;
+}
+
+.help-left h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 35px;
+  color: #1b2336;
+  margin-bottom: 25px;
+  padding-right: 60px;
+}
+
+.help-para {
+  margin-bottom: 25px;
+  padding-right: 80px;
+}
+
+.help-left p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+}
+
+.help-left-boxes {
+  display: flex;
+}
+
+.help-box-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.help-box-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px 50px;
+  background: #ffffff;
+  border: 1px solid #e3e9ed;
+  border-radius: 5px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #1b2336;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.check-icon {
+  color: #1683fc;
+  margin-right: 10px;
+}
+
+.helparrow-img {
+  position: absolute;
+  left: -150px;
+  top: 10px;
+}

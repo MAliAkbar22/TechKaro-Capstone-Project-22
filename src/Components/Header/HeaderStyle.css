@@ -1,86 +1,115 @@
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 5px 50px rgba(50, 112, 252, 0.08);
-    border-radius: 0px;
+header {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 5px 50px rgba(50, 112, 252, 0.08);
+  border-radius: 0px;
 }
 
-.header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 98px;
-    width: 1512px;
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-.logo img{
-    max-width: 100%;
-    height: 100%;
+.logo img {
+  max-width: 60%;
 }
 
-nav{
-    padding: 0 20px;
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+nav ul li {
+  list-style: none;
 }
 
-nav ul li{
-    list-style: none;
-    margin: 0px 30px;
+nav ul li a {
+  text-decoration: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #1b2336;
+  margin: 0 20px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    color: #1B2336;
+nav ul li a:hover,
+nav ul li a:active {
+  color: #2279fc;
 }
 
-nav ul li a:hover{
-    color: #2279FC;
+.search-box {
+  border: 1px solid #e5e5e5;
+  border-radius: 50px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.phone-btn{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 3px;
-    cursor: pointer;
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background: #ffffff;
 }
 
-.phone-number{
-    font-family: Nunito Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
+.search-box input::placeholder {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #bfbaba;
 }
 
-.appointment-btn{
-    height: 30px;
-    width: 120px;
-    background: #2279FC;
-    border: 1px solid #2279FC;
-    border-radius: 3px;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
+.search-icon {
+  color: #2279fc;
+  cursor: pointer;
+}
+
+.phone-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.phone-icon {
+  color: #2279fc;
+  background: rgba(50, 112, 252, 0.1);
+  border: 1px solid #2279fc;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.phone-number {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.appointment-btn {
+  padding: 10px 20px;
+  background: #2279fc;
+  border: 1px solid #2279fc;
+  border-radius: 3px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.appointment-btn:hover {
+  background-color: #ffffff;
+  color: #3270ff;
 }

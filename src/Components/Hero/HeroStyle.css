@@ -1,13 +1,89 @@
-.hero-container{
-    height: 530px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 25px;
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  gap: 100px;
 }
 
-.hero-left{
-    height: 407px;
-    width: 778px;
+.hero-left {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
+.hero-left img {
+  position: absolute;
+  left: -150px;
+  top: 10px;
+}
+
+.hero-left h1 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 72px;
+  color: #1b2336;
+  margin-bottom: 30px;
+}
+
+.hero-left p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #415674;
+  margin-bottom: 30px;
+  max-width: 70%;
+}
+
+.hero-left:last-child {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+}
+
+.hero-left a {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #2279fc;
+}
+
+.checkout-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.checkout-section h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 35px;
+  color: #1b2336;
+  margin-right: 20px;
+}
+
+.play-btn {
+  padding: 15px 30px;
+  background: #1b2336;
+  border: 1px solid #2279fc;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.play-btn:hover,
+.app-btn:hover {
+  border: 1px solid #2279fc;
+  background-color: #2279fc;
+  color: white;
+}
+
+.app-btn {
+  padding: 15px 30px;
+  background: #f8fafb;
+  border: 1px solid #e3e9ed;
+  cursor: pointer;
+}
