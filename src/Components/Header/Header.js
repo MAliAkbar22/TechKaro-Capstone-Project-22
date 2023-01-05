@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeaderStyle.css";
 import logo from "../../Images/logo.png";
+import { Link } from "react-router-dom";
 // import phone from '../../Images/phone.png'
 import { FaPhoneAlt, FaSearch } from "react-icons/fa";
 
@@ -15,22 +16,22 @@ const Header = () => {
           <nav className="navbar">
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#home">About</a>
+                <Link to="/">About</Link>
               </li>
               <li>
-                <a href="#home">Services</a>
+                <Link to="/">Services</Link>
               </li>
               <li>
-                <a href="#home">Solutions</a>
+                <Link to="/">Solutions</Link>
               </li>
               <li>
-                <a href="#home">Resources</a>
+                <Link to="/Cart">Resources</Link>
               </li>
               <li>
-                <a href="#home">Contact Us</a>
+                <Link to="/">Contact Us</Link>
               </li>
             </ul>
           </nav>

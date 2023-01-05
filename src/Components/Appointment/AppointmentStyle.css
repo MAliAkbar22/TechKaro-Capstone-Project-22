@@ -96,6 +96,12 @@ form option {
   border-radius: 3px;
 }
 
+.confirm-btn:hover {
+  color: #2279fc;
+  background: #ffffff;
+  cursor: pointer;
+}
+
 .checkboxes input {
   height: 16px;
   width: 16px;

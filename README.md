@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Click Here To Preview The Project [Tele Health Web](https://capstone-eg-5-telehealth.netlify.app/).
 

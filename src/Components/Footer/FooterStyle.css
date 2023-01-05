@@ -1,12 +1,130 @@
-.footer-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 428px;
-    width: 1512px;
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.footer-copyright{
-    text-align: center;
-    height: 77px;
+.footer-site-col {
+  padding: 25px 50px;
+  max-width: 500px;
+}
+
+.footer-site-col img {
+  max-width: 50%;
+  margin-bottom: 25px;
+}
+
+.footer-site-col p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  font-size: 30px;
+  color: #415674;
+  cursor: pointer;
+}
+
+.footer-contacts-col h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  color: #1b2336;
+  margin-bottom: 20px;
+}
+
+.footer-contacts-col p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+  margin-bottom: 20px;
+}
+
+.footer-links-col h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  color: #1b2336;
+  margin-bottom: 20px;
+}
+
+.footer-links-col ul li {
+  margin-bottom: 15px;
+}
+
+.footer-links-col ul li a::before {
+  color: red;
+}
+
+.footer-links-col ul li a {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+  text-decoration: none;
+}
+
+.footer-apps-col h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  color: #1b2336;
+  margin-bottom: 25px;
+}
+
+.footer-apps-col p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+  margin-bottom: 20px;
+}
+
+.footerplaystore-btn {
+  padding: 20px 40px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #1b2336;
+  border: 1px solid #2279fc;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footerplaystore-btn:hover {
+  color: #ffffff;
+  background: #2279fc;
+}
+
+.footerappstore-btn {
+  padding: 20px 40px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #1b2336;
+  background: #f8fafb;
+  border: 1px solid #e3e9ed;
+  cursor: pointer;
+}
+
+.footerappstore-btn:hover {
+  color: #ffffff;
+  background: #2279fc;
+}
+
+.footer-copyright {
+  padding: 50px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
 }

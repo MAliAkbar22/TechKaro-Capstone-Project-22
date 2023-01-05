@@ -1,7 +1,56 @@
-.subscribe-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 316px;
-    width: 1296px;
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 316px;
+  background: #3270ff;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  background-image: url("../../Images/subscribe-bg.png");
+}
+
+.subscribe-text h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subscribe-text p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  padding-right: 100px;
+}
+
+.subscribe-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.subscribe-box input {
+  border: none;
+  outline: none;
+  padding: 15px 100px;
+  font-size: larger;
+}
+
+.subscribe-btn {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin: 1px;
+  background: #2279fc;
+  border: 1px solid #2279fc;
+  border-radius: 3px;
+  cursor: pointer;
 }

@@ -8,13 +8,13 @@ const Telehealth = () => {
       <div className="container">
         <div className="telehealth-container">
           <div className="telehealth-left-col">
-            <h2>Telehealth</h2>
-            <h1>Getting safe healthcare at home</h1>
-            <p>
+            <h3>Telehealth</h3>
+            <h2>Getting safe healthcare at home</h2>
+            <p className="first-para">
               Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget
               consectetur sed, convallis at tellus.
             </p>
-            <p>
+            <p className="second-para">
               Praesent sapien massa, convallis a pellentesque nec, egestas non
               nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
               sem. Vestibulum ante ipsum primis in.
