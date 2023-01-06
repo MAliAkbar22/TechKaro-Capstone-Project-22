@@ -29,7 +29,7 @@
 }
 
 .counter-card h2 {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 35px;
   text-align: center;

@@ -6,6 +6,16 @@
   margin-bottom: 50px;
 }
 
+.help-box-left {
+  position: relative;
+}
+
+.helparrow-img {
+  position: absolute;
+  bottom: -90px;
+  right: 90px;
+}
+
 .help-left h3 {
   font-family: "Nunito Sans";
   font-weight: 400;
@@ -69,10 +79,4 @@
 .check-icon {
   color: #1683fc;
   margin-right: 10px;
-}
-
-.helparrow-img {
-  position: absolute;
-  left: -150px;
-  top: 10px;
 }

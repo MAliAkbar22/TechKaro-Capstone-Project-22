@@ -1,7 +1,7 @@
 import React from "react";
 import "./HelpStyle.css";
 import HelpImg from "../../Images/help.png";
-// import HelpArrow from "../../Images/help-arrow.png";
+import HelpArrow from "../../Images/help-arrow.png";
 import CheckImg from "../../Images/circle-check.png";
 
 const Help = () => {
@@ -33,6 +33,7 @@ const Help = () => {
                   <img src={CheckImg} className="check-icon" alt="Check-Img" />
                   <p>Share Documents Securely</p>
                 </div>
+                <img src={HelpArrow} className="helparrow-img" alt="Help-Img" />
               </div>
               <div className="help-box-right">
                 <div className="help-box">
@@ -53,7 +54,6 @@ const Help = () => {
           <div className="help-right">
             <img src={HelpImg} alt="Help-Img" />
           </div>
-          {/* <img src={HelpArrow} className="helparrow-img" alt="Help-Img" /> */}
         </div>
       </div>
     </div>

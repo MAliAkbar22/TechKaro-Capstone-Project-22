@@ -1,0 +1,54 @@
+.testomonial-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.testomonial-clients img {
+  position: absolute;
+}
+
+.testomonial-container h3 {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1683fc;
+  margin-bottom: 15px;
+}
+
+.testomonial-container h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 35px;
+  color: #1b2336;
+  margin-bottom: 50px;
+}
+
+.main-img {
+  margin-bottom: 30px;
+}
+
+.testomonial-container p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 24px;
+  color: #415674;
+
+  margin: 0 auto;
+  width: 800px;
+}
+
+.testomonial-container h4 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  color: #1b2336;
+  margin-top: 15px;
+}
+
+.testomonial-container h5 {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #1683fc;
+}

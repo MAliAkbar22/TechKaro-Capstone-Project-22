@@ -17,7 +17,7 @@
   font-weight: 700;
   font-size: 35px;
   color: #1b2336;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .service-row1 {
@@ -43,13 +43,16 @@
   background: #ecf7ff;
   width: 400px;
   height: 400px;
+  margin: 50px;
 }
 
 .service-card img {
+  position: relative;
+  bottom: 50px;
 }
 
 .service-card h2 {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Display", sans-serif;
   font-weight: 700;
   font-size: 50px;
   text-align: center;
@@ -66,6 +69,7 @@
   text-align: center;
   color: #ffffff;
   padding: 15px 40px;
+  margin-top: 50px;
 }
 
 .service-btn:hover {
