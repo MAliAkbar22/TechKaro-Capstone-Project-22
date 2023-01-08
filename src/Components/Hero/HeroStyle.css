@@ -16,7 +16,7 @@
 .hero-left img {
   position: absolute;
   left: -150px;
-  top: 10px;
+  top: 30px;
 }
 
 .hero-left h1 {
@@ -33,7 +33,7 @@
   font-size: 18px;
   color: #415674;
   margin-bottom: 30px;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .hero-left:last-child {

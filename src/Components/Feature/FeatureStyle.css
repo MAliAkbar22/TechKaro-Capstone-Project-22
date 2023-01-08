@@ -1,47 +1,48 @@
-.feature-container{
-    margin-bottom: 70px;
+.feature-container {
+  margin-bottom: 70px;
 }
 
-.feature-text p{
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    font-size: 13px;
-    text-align: center;
-    color: #3270FF;
+.feature-text p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #3270ff;
+  margin-bottom: 15px;
 }
 
-.feature-text h2{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 35px;
-    text-align: center;
-    color: #1B2336;
+.feature-text h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #1b2336;
+  margin-bottom: 50px;
 }
 
-.feature-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.feature-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.card{
-    min-height: 350px;
-    width: 300px;
-    margin-top: 50px;
+.card {
+  min-height: 350px;
+  max-width: 300px;
 }
 
-.card h2{
-    font-family: 'Raleway';
-    font-size: 24px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.card h2 {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.card p{
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    font-size: 16px;
-    color: #415674;
-    text-align: left;
+.card p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+  text-align: left;
 }

@@ -1,72 +1,70 @@
-.provide-container{
-    display: flex;
-    align-items: center;
+.provide-container {
+  display: flex;
+  align-items: center;
 }
 
-.provide-left{
-    background: url("../../Images/ellipse.png");
-    background-repeat: no-repeat;
-    background-position-x: -170px;
+.provide-left {
+  background: url("../../Images/ellipse.png");
+  background-repeat: no-repeat;
+  background-position-x: -170px;
 }
 
-.provide-img{
-    position: relative;
+.provide-img {
+  position: relative;
 }
 
-.provide-right h3{
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    font-size: 13px;
-    color: #3270FF;
-    margin-bottom: 30px;
+.provide-right h3 {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 13px;
+  color: #3270ff;
+  margin-bottom: 30px;
 }
 
-.provide-right-text h2{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 35px;
-    color: #1B2336;
-    margin-bottom: 30px;
-
+.provide-right-text h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 35px;
+  color: #1b2336;
+  margin-bottom: 30px;
 }
 
-.provide-right-text p{
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    font-size: 16px;
-    color: #415674;
-    margin-bottom: 20px;
+.provide-right-text p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
+  margin-bottom: 20px;
 }
 
-.percentage{
-    display: flex;
-    align-items: center;
-    padding: 15px 30px;
-    margin-bottom: 10px;
-    box-shadow: 0px 5px 50px rgba(50, 112, 252, 0.08);
-
+.percentage {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 50px rgba(50, 112, 252, 0.08);
 }
 
-.blue{
-    background-clip: padding-box;
-    background: #0841CE;
-    font-weight: 400;
-    font-size: 35px;
-    margin-right: 20px;  
-    color: #FFFFFF;  
+.blue {
+  background-color: #0841ce;
+  font-weight: 400;
+  font-size: 35px;
+  padding: 10px;
+  margin-right: 20px;
+  color: #ffffff;
 }
 
-.black{
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    font-size: 35px;
-    color: #1B2336;
-    margin-right: 20px;  
+.black {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 35px;
+  color: #1b2336;
+  margin-right: 20px;
 }
 
-.percentage p{
-    font-family: 'Nunito Sans';
-    font-weight: 400;
-    font-size: 18px;
-    color: #415674;
+.percentage p {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #415674;
 }

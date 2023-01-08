@@ -25,7 +25,7 @@ const Provide = () => {
             </div>
 
             <div className="percentage">
-              <span className="blue">80%</span>
+              <div className="blue">80%</div>
               <p>Of patients are interested in using telemedicine</p>
             </div>
             <div className="percentage">
