@@ -1,8 +1,5 @@
 .service-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 50px;
+  text-align: center;
 }
 
 .service-container h3 {
@@ -10,6 +7,7 @@
   font-weight: 400;
   font-size: 13px;
   color: #1683fc;
+  margin-bottom: 5px;
 }
 
 .service-container h2 {
@@ -18,44 +16,41 @@
   font-size: 35px;
   color: #1b2336;
   margin-bottom: 100px;
+  text-align: center;
 }
 
-.service-row1 {
-  display: flex;
-  align-items: center;
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px 50px;
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.service-row2 {
-  display: flex;
-  align-items: center;
+.service-cards .service-card {
+  text-align: center;
+  padding: 50px 5px 80px 5px;
 }
 
-.service-row3 {
-  display: flex;
-  align-items: center;
+.service-card .img-container {
+  width: 100%;
+}
+.service-card .img-container img {
+  height: 200px;
+  object-fit: contain;
+  margin-top: -110px;
+  margin-bottom: 30px;
+}
+.service-card .service-card-title {
+  text-align: center;
 }
 
-.service-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #ecf7ff;
-  width: 400px;
-  height: 400px;
-  margin: 50px;
-}
-
-.service-card img {
-  position: relative;
-  bottom: 50px;
-}
-
-.service-card h2 {
+.service-card h5 {
   font-family: "SF Pro Display", sans-serif;
   font-weight: 700;
   font-size: 50px;
-  text-align: center;
+  min-width: 70%;
   color: #1d5ab8;
 }
 
@@ -76,4 +71,9 @@
   background-color: #ffffff;
   color: #3270ff;
   cursor: pointer;
+}
+
+.service-card {
+  background: #ecf7ff;
+  padding: 0 20px 20px 20px;
 }

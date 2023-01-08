@@ -9,6 +9,7 @@ import ServiceImg6 from "../../Images/service-6.png";
 import ServiceImg7 from "../../Images/service-7.png";
 import ServiceImg8 from "../../Images/service-8.png";
 import ServiceImg9 from "../../Images/service-9.png";
+import ServiceComponent from "./ServiceComponent";
 
 const Services = () => {
   return (
@@ -17,7 +18,43 @@ const Services = () => {
         <div className="service-container">
           <h3>Our Services</h3>
           <h2>Tele Health Professional Services</h2>
-          <div className="service-row1">
+
+          <div class="service-cards">
+            <ServiceComponent
+              imgUrl={ServiceImg1}
+              serviceTitle="Ambulance Services"
+            />
+            <ServiceComponent imgUrl={ServiceImg2} serviceTitle="Blood Bank" />
+            <ServiceComponent
+              imgUrl={ServiceImg3}
+              serviceTitle="Chemist Online"
+            />
+
+            <ServiceComponent
+              imgUrl={ServiceImg4}
+              serviceTitle="Diagnostic Reports"
+            />
+            <ServiceComponent
+              imgUrl={ServiceImg5}
+              serviceTitle="Fitness Exercises"
+            />
+            <ServiceComponent
+              imgUrl={ServiceImg6}
+              serviceTitle="Health Insurance"
+            />
+
+            <ServiceComponent
+              imgUrl={ServiceImg7}
+              serviceTitle="Ambulance Services"
+            />
+            <ServiceComponent imgUrl={ServiceImg8} serviceTitle="Blood Bank" />
+            <ServiceComponent
+              imgUrl={ServiceImg9}
+              serviceTitle="Chemist Online"
+            />
+          </div>
+
+          {/* <div className="service-row1">
             <div className="service-card">
               <img src={ServiceImg1} alt="Service-Img" />
               <h2>Ambulance Services</h2>
@@ -31,6 +68,7 @@ const Services = () => {
               <h2>Chemist Online</h2>
             </div>
           </div>
+
           <div className="service-row2">
             <div className="service-card">
               <img src={ServiceImg4} alt="Service-Img" />
@@ -59,7 +97,8 @@ const Services = () => {
               <img src={ServiceImg9} alt="Service-Img" />
               <h2>General Physician</h2>
             </div>
-          </div>
+          </div> */}
+
           <button className="service-btn">See All Services</button>
         </div>
       </div>

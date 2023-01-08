@@ -1,16 +1,14 @@
+.provide-section {
+  background-image: url("../../Images/ellipse.png");
+  background-repeat: no-repeat;
+  background-size: 44%;
+  background-position: bottom left;
+}
+
 .provide-container {
   display: flex;
   align-items: center;
-}
-
-.provide-left {
-  background: url("../../Images/ellipse.png");
-  background-repeat: no-repeat;
-  background-position-x: -170px;
-}
-
-.provide-img {
-  position: relative;
+  gap: 20px;
 }
 
 .provide-right h3 {
@@ -40,18 +38,11 @@
 .percentage {
   display: flex;
   align-items: center;
-  padding: 15px 30px;
-  margin-bottom: 10px;
   box-shadow: 0px 5px 50px rgba(50, 112, 252, 0.08);
+  transition: all 0.5s ease;
 }
-
-.blue {
-  background-color: #0841ce;
-  font-weight: 400;
-  font-size: 35px;
-  padding: 10px;
-  margin-right: 20px;
-  color: #ffffff;
+.percentage:not(:last-of-type) {
+  margin-bottom: 10px;
 }
 
 .black {
@@ -60,6 +51,13 @@
   font-size: 35px;
   color: #1b2336;
   margin-right: 20px;
+  padding: 20px 20px;
+}
+
+.percentage:hover .black {
+  color: #fff;
+  background-color: #3270ff;
+  cursor: pointer;
 }
 
 .percentage p {

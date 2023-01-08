@@ -40,19 +40,36 @@ form {
   justify-content: center;
 }
 
+form .input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+form .input-col {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
 form label {
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 16px;
   color: #1b2336;
+  display: block;
+  margin-bottom: 5px;
 }
 
 form input {
   height: 50px;
-  width: 300px;
+  width: 100%;
   background: #f8fafb;
   border: 1px solid #afb5c4;
   border-radius: 5px;
+  position: relative;
+  padding-left: 10px;
 }
 
 form input::placeholder {
@@ -60,6 +77,12 @@ form input::placeholder {
   font-weight: 400;
   font-size: 16px;
   color: #666666;
+}
+
+form .input-icon {
+  position: absolute;
+  right: 14px;
+  bottom: 20px;
 }
 
 form select {
@@ -94,12 +117,28 @@ form option {
   background: #2279fc;
   border: 1px solid #2279fc;
   border-radius: 3px;
+  margin-right: 20px;
 }
 
 .confirm-btn:hover {
   color: #2279fc;
   background: #ffffff;
   cursor: pointer;
+}
+
+.confirm-row {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
 }
 
 .checkboxes input {

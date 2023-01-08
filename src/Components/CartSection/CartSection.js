@@ -64,10 +64,10 @@ const CartSection = () => {
                       +
                     </button>
                   </div>
-                  <td className="total-price">Rs. {price * quantity}</td>
-                  <td>
-                    <FaRegTrashAlt className="trash-icon" />
-                  </td>
+                </td>
+                <td className="total-price">Rs. {price * quantity}</td>
+                <td>
+                  <FaRegTrashAlt className="trash-icon" />
                 </td>
               </tr>
               <tr>
@@ -86,10 +86,10 @@ const CartSection = () => {
                       +
                     </button>
                   </div>
-                  <td className="total-price">Rs. {price * quantity}</td>
-                  <td>
-                    <FaRegTrashAlt className="trash-icon" />
-                  </td>
+                </td>
+                <td className="total-price">Rs. {price * quantity}</td>
+                <td>
+                  <FaRegTrashAlt className="trash-icon" />
                 </td>
               </tr>
               <tr>
@@ -108,10 +108,10 @@ const CartSection = () => {
                       +
                     </button>
                   </div>
-                  <td className="total-price">Rs. {price * quantity}</td>
-                  <td>
-                    <FaRegTrashAlt className="trash-icon" />
-                  </td>
+                </td>
+                <td className="total-price">Rs. {price * quantity}</td>
+                <td>
+                  <FaRegTrashAlt className="trash-icon" />
                 </td>
               </tr>
               <tr>
@@ -130,21 +130,25 @@ const CartSection = () => {
                       +
                     </button>
                   </div>
-                  <td className="total-price">Rs. {price * quantity}</td>
-                  <td>
-                    <FaRegTrashAlt className="trash-icon" />
-                  </td>
+                </td>
+                <td className="total-price">Rs. {price * quantity}</td>
+                <td>
+                  <FaRegTrashAlt className="trash-icon" />
                 </td>
               </tr>
             </table>
+
             <div className="cart-buttons">
               <div className="coupon-box">
                 <input type="text" name="" id="" />
                 <button className="coupon-btn">Apply Coupon</button>
               </div>
-              <button className="update-btn">Update Cart</button>
+              <div className="coupon-btn-s">
+                <button className="update-btn">Update Cart</button>
+              </div>
             </div>
           </div>
+
           <div className="cart-checkout">
             <h2>Checkout Summary</h2>
             <hr className="dark-line" />

@@ -30,10 +30,22 @@ const Footer = () => {
           </div>
           <div className="footer-contacts-col">
             <h2>Contacts Info</h2>
-            <p>Address: 312 Clinton Circle Atlantic City, M2 080522</p>
-            <p>Phone: +92(000) 984 2020</p>
-            <p>Email: info@domain.com</p>
-            <p>Time: Every day 24 hours</p>
+            <div className="contact-row">
+              <div className="contact-title">Address:</div>
+              <div>312 Clinton Circle Atlantic City, M2 080522</div>
+            </div>
+            <div className="contact-row">
+              <div className="contact-title">Phone:</div>
+              <div>+92(000) 984 2020</div>
+            </div>
+            <div className="contact-row">
+              <div className="contact-title">Email:</div>
+              <div>info@domain.com</div>
+            </div>
+            <div className="contact-row">
+              <div className="contact-title">Time:</div>
+              <div>Every day 24 hours</div>
+            </div>
           </div>
           <div className="footer-links-col">
             <h2>Quick Link</h2>
@@ -60,12 +72,15 @@ const Footer = () => {
             <p>
               Download today and get your free copy from Apple and Play Store
             </p>
-            <button className="footerplaystore-btn">
-              <FaGooglePlay /> Play Store
-            </button>
-            <button className="footerappstore-btn">
-              <FaApple /> App Store
-            </button>
+
+            <div className="footer-btns">
+              <button className="footerplaystore-btn">
+                <FaGooglePlay /> Play Store
+              </button>
+              <button className="footerappstore-btn">
+                <FaApple /> App Store
+              </button>
+            </div>
           </div>
         </div>
       </div>

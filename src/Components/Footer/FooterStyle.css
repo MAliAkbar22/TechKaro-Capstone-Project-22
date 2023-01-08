@@ -1,13 +1,8 @@
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 20px;
-}
-
-.footer-site-col {
-  padding: 25px 50px;
-  max-width: 500px;
 }
 
 .footer-site-col img {
@@ -89,6 +84,12 @@
   margin-bottom: 20px;
 }
 
+.footer-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footerplaystore-btn {
   padding: 20px 40px;
   font-family: "Nunito Sans";
@@ -98,9 +99,7 @@
   color: #ffffff;
   background: #1b2336;
   border: 1px solid #2279fc;
-  margin-right: 20px;
   cursor: pointer;
-  margin-bottom: 80px;
 }
 
 .footerplaystore-btn:hover {
@@ -131,4 +130,13 @@
   font-weight: 400;
   font-size: 16px;
   color: #415674;
+}
+
+.contact-row {
+  display: flex;
+}
+
+.contact-title {
+  color: #2279fc;
+  margin-right: 20px;
 }

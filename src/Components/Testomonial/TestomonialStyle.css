@@ -1,3 +1,7 @@
+.testomonial-section {
+  position: relative;
+}
+
 .testomonial-container {
   text-align: center;
   padding: 50px;
@@ -51,4 +55,29 @@
   font-weight: 400;
   font-size: 14px;
   color: #1683fc;
+}
+
+.c1 {
+  left: 300px;
+  top: 100px;
+}
+
+.c2 {
+  right: 300px;
+  top: 100px;
+}
+
+.c3 {
+  left: 200px;
+  top: 300px;
+}
+
+.c4 {
+  left: 300px;
+  top: 450px;
+}
+
+.c5 {
+  right: 300px;
+  top: 450px;
 }
