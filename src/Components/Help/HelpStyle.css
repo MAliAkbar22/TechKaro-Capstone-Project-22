@@ -11,9 +11,10 @@
 }
 
 .helparrow-img {
+  width: 155%;
   position: absolute;
-  bottom: -60px;
-  right: 5px;
+  bottom: -75px;
+  right: 30px;
 }
 
 .help-left h3 {
@@ -27,15 +28,13 @@
 .help-left h2 {
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 35px;
+  font-size: 30px;
   color: #1b2336;
   margin-bottom: 25px;
-  padding-right: 60px;
 }
 
 .help-para {
   margin-bottom: 25px;
-  padding-right: 80px;
 }
 
 .help-left p {
@@ -83,4 +82,8 @@
 .check-icon {
   color: #1683fc;
   margin-right: 10px;
+}
+
+.help-right img {
+  width: 578px;
 }

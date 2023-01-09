@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./FooterStyle.css";
 import {
   FaGooglePlay,
@@ -16,7 +17,10 @@ const Footer = () => {
       <div className="container">
         <div className="footer-container">
           <div className="footer-site-col">
-            <img src={FooterLogo} alt="Footer-Logo" />
+            <Link to="/">
+              <img src={FooterLogo} alt="Footer-Logo" />
+            </Link>
+
             <p>
               Sed porttitor lectus nibh. Curabitur aliquet quam id dui posuere
               blandit. vivamus suscipit tortor ege.
@@ -34,14 +38,17 @@ const Footer = () => {
               <div className="contact-title">Address:</div>
               <div>312 Clinton Circle Atlantic City, M2 080522</div>
             </div>
+            <br />
             <div className="contact-row">
               <div className="contact-title">Phone:</div>
               <div>+92(000) 984 2020</div>
             </div>
+            <br />
             <div className="contact-row">
               <div className="contact-title">Email:</div>
               <div>info@domain.com</div>
             </div>
+            <br />
             <div className="contact-row">
               <div className="contact-title">Time:</div>
               <div>Every day 24 hours</div>

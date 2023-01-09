@@ -1,8 +1,8 @@
 .provide-section {
   background-image: url("../../Images/ellipse.png");
   background-repeat: no-repeat;
-  background-size: 44%;
-  background-position: bottom left;
+  background-size: 40%;
+  background-position: bottom top;
 }
 
 .provide-container {

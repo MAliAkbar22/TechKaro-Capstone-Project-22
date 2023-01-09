@@ -134,11 +134,20 @@ form option {
 .checkboxes {
   display: flex;
   flex-direction: column;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #415674;
 }
 
 .checkbox-row {
   display: flex;
   align-items: center;
+  padding: 0px 0px 5px 0px;
+}
+
+.checkbox-row p {
+  margin-right: 10px;
 }
 
 .checkboxes input {
@@ -146,4 +155,5 @@ form option {
   width: 16px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.25);
+  margin-right: 5px;
 }

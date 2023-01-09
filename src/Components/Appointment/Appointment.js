@@ -84,9 +84,9 @@ const Appointment = () => {
                 <div className="checkboxes">
                   <div className="checkbox-row">
                     <input type="checkbox" name="" id="" />
-                    Male
+                    <p>Male</p>
                     <input type="checkbox" name="" id="" />
-                    Female
+                    <p>Female</p>
                   </div>
                   <div>
                     <input type="checkbox" name="" id="" />
