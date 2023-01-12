@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./HeaderStyle.css";
 import logo from "../../Images/logo.png";
 import { Link } from "react-router-dom";
@@ -9,16 +9,28 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const handclick = () => setClick(!click);
 
+  useEffect(() => {
+    const handleScroll = (event) => {
+      console.log("window.scrollY", window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <header>
       <div className="container">
-        <div className="header-container">
-          <div className="logo">
+        <div className={click ? "header-container active" : "header-container"}>
+          <div className={click ? "logo active" : "logo"}>
             <Link to="/">
               <img src={logo} alt="Logo" />
             </Link>
           </div>
-          <nav className="navbar">
+          <nav className={click ? "navbar active" : "navbar"}>
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -40,17 +52,17 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <div className="search-box">
+          <div className={click ? "search-box active" : "search-box"}>
             <input type="text" placeholder="Search..." />
             <FaSearch className="search-icon" />
           </div>
-          <div className="phone-btn">
+          <div className={click ? "phone-btn active" : "phone-btn"}>
             <div className="phone-icon">
               <FaPhoneAlt />
             </div>
             <p className="phone-number">+92(000) 984 2020</p>
           </div>
-          <div className="header-btn">
+          <div className={click ? "header-btn active" : "header-btn"}>
             <button className="appointment-btn">Appointment</button>
           </div>
           <div className="hamburger" onClick={handclick}>

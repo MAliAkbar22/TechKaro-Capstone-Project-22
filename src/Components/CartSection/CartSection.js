@@ -7,20 +7,50 @@ import CartItem3 from "../../Images/cart-item3.png";
 import CartItem4 from "../../Images/cart-item4.png";
 import { FaRegTrashAlt } from "react-icons/fa";
 
-const CartSection = () => {
-  const [quantity, setQuantity] = useState(1);
-  let price;
+const JSONDATA = [
+  {
+    img: CartItem1,
+    price: 19.0,
+    quantity: 1,
+    name: "Anti-virus Mask",
+  },
+  {
+    img: CartItem2,
+    price: 29.0,
+    quantity: 1,
+    name: "Personal Vaporizer",
+  },
+  {
+    img: CartItem3,
+    price: 329.0,
+    quantity: 1,
+    name: "Blood Pressure Monitor",
+  },
+  {
+    img: CartItem4,
+    price: 350.0,
+    quantity: 1,
+    name: "Hand Sanitizer Gel",
+  },
+];
 
-  const handleIncrement = () => {
-    if (quantity < 100) {
-      setQuantity((count) => count + 1);
-    }
+const CartSection = () => {
+  const [Data, setData] = useState(JSONDATA);
+
+  const handleIncrement = (item, i) => {
+    const a = Data[i];
+    a.quantity = Data[i]?.quantity + 1;
+    let data = Data;
+    data[i] = a;
+    setData([...data]);
   };
 
-  const handledecrement = () => {
-    if (quantity > 1) {
-      setQuantity((count) => count - 1);
-    }
+  const handledecrement = (item, i) => {
+    const a = Data[i];
+    a.quantity = Data[i]?.quantity - 1;
+    let data = Data;
+    data[i] = a;
+    setData([...data]);
   };
 
   return (
@@ -44,94 +74,41 @@ const CartSection = () => {
                 <th className="row-title">Total</th>
                 <th className="row-title">Trash</th>
               </tr>
-              <tr>
-                <td>
-                  <img src={CartItem1} alt="Cart-Img" />
-                </td>
-                <td className="product">Anti-virus Mask</td>
-                <td className="price">Rs. {(price = 19.0)}</td>
-                <td>
-                  <div className="quantity-box">
-                    <button className="dec-btn" onClick={handledecrement}>
-                      -
-                    </button>
-                    <div className="quantity">{quantity}</div>
-                    <button className="inc-btn" onClick={handleIncrement}>
-                      +
-                    </button>
-                  </div>
-                </td>
-                <td className="total-price">Rs. {price * quantity}</td>
-                <td>
-                  <FaRegTrashAlt className="trash-icon" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src={CartItem2} alt="Cart-Img" />
-                </td>
-                <td className="product">Personal Vaporizer</td>
-                <td className="price">Rs. {(price = 59.0)}</td>
-                <td>
-                  <div className="quantity-box">
-                    <button className="dec-btn" onClick={handledecrement}>
-                      -
-                    </button>
-                    <div className="quantity">{quantity}</div>
-                    <button className="inc-btn" onClick={handleIncrement}>
-                      +
-                    </button>
-                  </div>
-                </td>
-                <td className="total-price">Rs. {price * quantity}</td>
-                <td>
-                  <FaRegTrashAlt className="trash-icon" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src={CartItem3} alt="Cart-Img" />
-                </td>
-                <td className="product">Blood Pressure Monitor</td>
-                <td className="price">Rs. {(price = 99.0)}</td>
-                <td>
-                  <div className="quantity-box">
-                    <button className="dec-btn" onClick={handledecrement}>
-                      -
-                    </button>
-                    <div className="quantity">{quantity}</div>
-                    <button className="inc-btn" onClick={handleIncrement}>
-                      +
-                    </button>
-                  </div>
-                </td>
-                <td className="total-price">Rs. {price * quantity}</td>
-                <td>
-                  <FaRegTrashAlt className="trash-icon" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src={CartItem4} alt="Cart-Img" />
-                </td>
-                <td className="product">Hand Sanitizer Gel</td>
-                <td className="price">Rs. {(price = 29.0)}</td>
-                <td>
-                  <div className="quantity-box">
-                    <button className="dec-btn" onClick={handledecrement}>
-                      -
-                    </button>
-                    <div className="quantity">{quantity}</div>
-                    <button className="inc-btn" onClick={handleIncrement}>
-                      +
-                    </button>
-                  </div>
-                </td>
-                <td className="total-price">Rs. {price * quantity}</td>
-                <td>
-                  <FaRegTrashAlt className="trash-icon" />
-                </td>
-              </tr>
+              {Data?.length > 0 &&
+                Data?.map((item, i) => {
+                  return (
+                    <tr key={i}>
+                      <td>
+                        <img src={item?.img} alt="Cart-Img" />
+                      </td>
+                      <td className="product">{item?.name}</td>
+                      <td className="price">Rs. {item?.price}</td>
+                      <td>
+                        <div className="quantity-box">
+                          <button
+                            className="dec-btn"
+                            onClick={() => handledecrement(item, i)}
+                          >
+                            -
+                          </button>
+                          <div className="quantity">{item?.quantity}</div>
+                          <button
+                            className="inc-btn"
+                            onClick={() => handleIncrement(item, i)}
+                          >
+                            +
+                          </button>
+                        </div>
+                      </td>
+                      <td className="total-price">
+                        Rs. {item?.price * item?.quantity}
+                      </td>
+                      <td>
+                        <FaRegTrashAlt className="trash-icon" />
+                      </td>
+                    </tr>
+                  );
+                })}
             </table>
 
             <div className="cart-buttons">
