@@ -1,9 +1,8 @@
 .appointment-container {
-  height: 570px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .appointment-left {
@@ -50,7 +49,7 @@ form .input-row {
 form .input-col {
   width: 100%;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 form label {
@@ -143,7 +142,6 @@ form option {
 .checkbox-row {
   display: flex;
   align-items: center;
-  padding: 0px 0px 5px 0px;
 }
 
 .checkbox-row p {
@@ -156,4 +154,70 @@ form option {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.25);
   margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+  .appointment-left img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .appointment-container {
+    flex-direction: column-reverse;
+  }
+
+  .appointment-right {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 430px) {
+  .appointment-container {
+    flex-direction: initial;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -700px;
+    margin-bottom: 500px;
+  }
+  .appointment-left img {
+    display: none;
+  }
+
+  .appointment-right {
+    margin: 0 auto;
+  }
+
+  .appointment-right h2 {
+    font-size: 30px;
+  }
+  .input-row {
+    flex-direction: column;
+  }
+  form {
+    text-align: left;
+    padding: 20px;
+  }
+  form .input-col {
+    width: 100%;
+  }
+  form .input-row {
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  form select {
+    width: 100%;
+  }
+
+  .confirm-row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .checkboxes {
+    margin-bottom: 20px;
+  }
 }

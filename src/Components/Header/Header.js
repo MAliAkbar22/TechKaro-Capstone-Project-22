@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HeaderStyle.css";
 import logo from "../../Images/logo.png";
 import { Link } from "react-router-dom";
 // import phone from '../../Images/phone.png'
-import { FaPhoneAlt, FaSearch } from "react-icons/fa";
+import { FaBars, FaPhoneAlt, FaSearch, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+  const [click, setClick] = useState(false);
+  const handclick = () => setClick(!click);
+
   return (
     <header>
       <div className="container">
@@ -49,6 +52,13 @@ const Header = () => {
           </div>
           <div className="header-btn">
             <button className="appointment-btn">Appointment</button>
+          </div>
+          <div className="hamburger" onClick={handclick}>
+            {click ? (
+              <FaTimes size={20} style={{ color: "#2279fc" }} />
+            ) : (
+              <FaBars size={20} style={{ color: "#2279fc" }} />
+            )}
           </div>
         </div>
       </div>

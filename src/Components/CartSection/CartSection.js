@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./CartSectionStyle.css";
-import CartBg from "../../Images/cart-bg.png";
 import CartItem1 from "../../Images/cart-item1.png";
 import CartItem2 from "../../Images/cart-item2.png";
 import CartItem3 from "../../Images/cart-item3.png";
@@ -29,11 +28,8 @@ const CartSection = () => {
       <div className="container">
         <div className="cart-container">
           <div className="cart-top">
-            <div className="cart-left">
-              <img src={CartBg} alt="Cart-Bg" />
-            </div>
-            <div className="cart-right">
-              <h1>Cart</h1>
+            <h1>Cart</h1>
+            <div className="cart-links">
               <Link to="/">Home</Link>
               <Link to="/Cart">Cart</Link>
             </div>
@@ -152,13 +148,13 @@ const CartSection = () => {
           <div className="cart-checkout">
             <h2>Checkout Summary</h2>
             <hr className="dark-line" />
-            <p>Subtotal Rs. 196</p>
+            <span>Subtotal</span> <span>Rs. 196</span>
             <hr className="light-line" />
-            <p>Shipping Rs. 196</p>
+            <span>Shipping</span> <span>Rs. 196</span>
             <hr className="light-line" />
-            <p>Total Rs. 196</p>
+            <span>Total</span> <span>Rs. 196</span>
             <hr className="light-line" />
-            <p>Payable Total Rs. 196</p>
+            <span>Payable</span> <span>Total Rs. 196</span>
             <button className="proceed-btn">Proceed to checkout</button>
           </div>
         </div>

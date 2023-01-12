@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
+  padding: 20px;
+  margin-bottom: 100px;
 }
 
 .telehealth-left-col h3 {
@@ -30,12 +31,10 @@
 
 .first-para {
   margin-bottom: 15px;
-  padding-right: 400px;
 }
 
 .second-para {
   margin-bottom: 30px;
-  padding-right: 350px;
 }
 
 .telehealth-btn {
@@ -55,4 +54,17 @@
   color: #2279fc;
   background: #ffffff;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .telehealth-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .telehealth-right-col img {
+    width: 100%;
+  }
 }

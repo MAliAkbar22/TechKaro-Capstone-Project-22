@@ -3,16 +3,21 @@
 }
 
 .cart-top {
+  background-image: url("/src/Images/cart-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: contain;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .cart-right {
   padding-left: 250px;
 }
 
-.cart-right h1 {
+.cart-top h1 {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 50px;
@@ -21,7 +26,8 @@
   margin-bottom: 20px;
 }
 
-.cart-right a {
+.cart-top a {
+  flex-direction: row;
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 16px;
@@ -31,11 +37,11 @@
   text-decoration: none;
 }
 
-.cart-right a:hover {
+.cart-top a:hover {
   color: #2279fc;
 }
 
-.cart-right a:active {
+.cart-top a:active {
   color: #00ca99;
 }
 
@@ -75,7 +81,6 @@ table td {
 
 .cart-checkout {
   margin: 0 auto;
-  height: 400px;
   width: 600px;
   padding: 30px;
   background: #ffffff;
@@ -162,8 +167,8 @@ table td {
   margin-bottom: 20px;
 }
 
-.cart-checkout p {
-  padding: 20px;
+.cart-checkout span {
+  display: flex;
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 16px;
@@ -171,7 +176,7 @@ table td {
 }
 
 .proceed-btn {
-  padding: 15px 195px;
+  padding: 15px 30px;
   font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 16px;
@@ -182,6 +187,7 @@ table td {
   border: 1px solid #2279fc;
   border-radius: 3px;
   cursor: pointer;
+  width: 100%;
 }
 
 .trash-icon {

@@ -1,14 +1,11 @@
-.provide-section {
-  background-image: url("../../Images/ellipse.png");
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: bottom top;
-}
-
 .provide-container {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.provide-left img {
+  width: 600px;
 }
 
 .provide-right h3 {
@@ -56,7 +53,7 @@
 
 .percentage:hover .black {
   color: #fff;
-  background-color: #3270ff;
+  background-color: #0841ce;
   cursor: pointer;
 }
 
@@ -65,4 +62,42 @@
   font-weight: 400;
   font-size: 18px;
   color: #415674;
+}
+
+@media (max-width: 768px) {
+  .provide-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .provide-left img {
+    width: 60%;
+  }
+
+  .percentage {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .provide-left img {
+    width: 100%;
+  }
+
+  .provide-right-text h2 {
+    font-size: 25px;
+  }
+
+  .provide-right-text p {
+    font-size: 14px;
+  }
+
+  .percentage p {
+    font-size: 11px;
+  }
+
+  .black {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
 }

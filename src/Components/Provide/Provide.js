@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProvideStyle.css";
-import EllipseImg from "../../Images/ellipse-img.png";
+import ProvideImg from "../../Images/provide.svg";
 
 const Provide = () => {
   return (
@@ -8,7 +8,7 @@ const Provide = () => {
       <div className="container">
         <div className="provide-container">
           <div className="provide-left">
-            <img src={EllipseImg} className="provide-img" alt="Provide-Img" />
+            <img src={ProvideImg} className="provide-img" alt="Provide-Img" />
           </div>
           <div className="provide-right">
             <h3>What We Provide</h3>

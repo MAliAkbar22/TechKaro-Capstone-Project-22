@@ -35,8 +35,8 @@ const Footer = () => {
           <div className="footer-contacts-col">
             <h2>Contacts Info</h2>
             <div className="contact-row">
-              <div className="contact-title">Address:</div>
-              <div>312 Clinton Circle Atlantic City, M2 080522</div>
+              <span className="contact-title">Address:</span>
+              <span>312 Clinton Circle Atlantic City, M2 080522</span>
             </div>
             <br />
             <div className="contact-row">

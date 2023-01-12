@@ -21,6 +21,7 @@ const Help = () => {
             </p>
             <div className="help-left-boxes">
               <div className="help-box-left">
+                <img src={HelpArrow} className="helparrow-img" alt="Help-Img" />
                 <div className="help-box">
                   <img src={CheckImg} className="check-icon" alt="Check-Img" />
                   <p>Pay Less</p>
@@ -33,7 +34,6 @@ const Help = () => {
                   <img src={CheckImg} className="check-icon" alt="Check-Img" />
                   <p>Share Documents Securely</p>
                 </div>
-                <img src={HelpArrow} className="helparrow-img" alt="Help-Img" />
               </div>
               <div className="help-box-right">
                 <div className="help-box">

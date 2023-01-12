@@ -11,8 +11,8 @@ const Checkout = () => {
       <div className="container">
         <div className="checkout-container">
           <div className="checkout-left">
-            <img src={PhoneLeft} alt="Phone-Img" className="phone-left" />
             <img src={PhoneRight} alt="Phone-Img" className="phone-right" />
+            <img src={PhoneLeft} alt="Phone-Img" className="phone-left" />
           </div>
           <div className="checkout-right">
             <h3>CHOOSE YOUR DEVICE PLATFORM</h3>
