@@ -143,6 +143,9 @@
   color: #ffffff;
   background: #2279fc;
 }
+.footer-line {
+  border-top: 1px solid #e3e9ed;
+}
 
 .footer-copyright {
   padding: 50px;

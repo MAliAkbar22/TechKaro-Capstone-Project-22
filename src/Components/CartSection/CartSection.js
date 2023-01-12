@@ -148,13 +148,21 @@ const CartSection = () => {
           <div className="cart-checkout">
             <h2>Checkout Summary</h2>
             <hr className="dark-line" />
-            <span>Subtotal</span> <span>Rs. 196</span>
+            <div className="summery-row">
+              <span>Subtotal</span> <span>Rs. 196</span>
+            </div>
             <hr className="light-line" />
-            <span>Shipping</span> <span>Rs. 196</span>
+            <div className="summery-row">
+              <span>Shipping</span> <span>Rs. 196</span>
+            </div>
             <hr className="light-line" />
-            <span>Total</span> <span>Rs. 196</span>
+            <div className="summery-row">
+              <span>Total</span> <span>Rs. 196</span>
+            </div>
             <hr className="light-line" />
-            <span>Payable</span> <span>Total Rs. 196</span>
+            <div className="summery-row">
+              <span>Payable</span> <span>Total Rs. 196</span>
+            </div>
             <button className="proceed-btn">Proceed to checkout</button>
           </div>
         </div>

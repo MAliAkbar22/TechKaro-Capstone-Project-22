@@ -93,6 +93,7 @@ const Footer = () => {
       </div>
       <div className="container">
         <div className="footer-copyright">
+          <hr className="footer-line" />
           <p>Copyright @ 2022 Tele Health. All Rights Reserved</p>
         </div>
       </div>
