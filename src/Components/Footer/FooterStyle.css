@@ -187,3 +187,13 @@
     grid-template-columns: repeat(1, 0.5fr);
   }
 }
+
+@media (max-width: 320px) {
+  .footer-apps-col {
+    width: 100%;
+  }
+
+  .footerplaystore-btn {
+    margin-right: 5px;
+  }
+}
