@@ -92,7 +92,6 @@
 @media (max-width: 1024px) {
   .help-right img {
     width: 100%;
-    margin-bottom: 200px;
   }
 
   .help-left {
@@ -133,9 +132,9 @@
 
 @media (max-width: 430px) {
   .help-container {
-    margin: 0 auto;
     padding: 10px;
     text-align: center;
+    flex-direction: column-reverse;
   }
   .help-left-boxes {
     justify-content: center;
@@ -150,8 +149,16 @@
     justify-content: left;
     padding: 5px;
   }
-
   .help-left p {
-    font-size: 9px;
+    font-size: 15px;
+  }
+  .help-left-boxes p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .help-left-boxes p {
+    font-size: 8px;
   }
 }

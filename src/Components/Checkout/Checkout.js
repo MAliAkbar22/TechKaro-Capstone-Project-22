@@ -7,7 +7,7 @@ import { FaApple } from "react-icons/fa";
 
 const Checkout = () => {
   return (
-    <div>
+    <div id="checkout-section">
       <div className="container">
         <div className="checkout-container">
           <div className="checkout-left">

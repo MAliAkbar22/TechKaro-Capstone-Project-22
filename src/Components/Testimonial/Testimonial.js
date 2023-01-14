@@ -20,7 +20,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="testimonial-section">
+    <div id="testimonial-section">
       <div className="container">
         <div className="testimonial-container">
           <h3>Testimonial</h3>

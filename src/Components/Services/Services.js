@@ -13,7 +13,7 @@ import ServiceComponent from "./ServiceComponent";
 
 const Services = () => {
   return (
-    <div className="services-section">
+    <div id="services-section">
       <div className="container">
         <div className="service-container">
           <h3>Our Services</h3>
@@ -53,52 +53,6 @@ const Services = () => {
               serviceTitle="Chemist Online"
             />
           </div>
-
-          {/* <div className="service-row1">
-            <div className="service-card">
-              <img src={ServiceImg1} alt="Service-Img" />
-              <h2>Ambulance Services</h2>
-            </div>
-            <div className="service-card">
-              <img src={ServiceImg2} alt="Service-Img" />
-              <h2>Blood Bank</h2>
-            </div>
-            <div className="service-card">
-              <img src={ServiceImg3} alt="Service-Img" />
-              <h2>Chemist Online</h2>
-            </div>
-          </div>
-
-          <div className="service-row2">
-            <div className="service-card">
-              <img src={ServiceImg4} alt="Service-Img" />
-              <h2>Diagnostic Reports</h2>
-            </div>
-            <div className="service-card">
-              <img src={ServiceImg5} alt="Service-Img" />
-              <h2>Fitness Exercises</h2>
-            </div>
-            <div className="service-card">
-              <img src={ServiceImg6} alt="Service-Img" />
-              <h2>Health Insurance</h2>
-            </div>
-          </div>
-
-          <div className="service-row3">
-            <div className="service-card">
-              <img src={ServiceImg7} alt="Service-Img" />
-              <h2>Home Care</h2>
-            </div>
-            <div className="service-card">
-              <img src={ServiceImg8} alt="Service-Img" />
-              <h2>Medical Equipments</h2>
-            </div>
-            <div className="service-card">
-              <img src={ServiceImg9} alt="Service-Img" />
-              <h2>General Physician</h2>
-            </div>
-          </div> */}
-
           <button className="service-btn">See All Services</button>
         </div>
       </div>

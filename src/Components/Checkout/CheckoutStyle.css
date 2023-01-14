@@ -94,6 +94,9 @@
 }
 
 @media (max-width: 430px) {
+  .checkout-container {
+    flex-direction: column;
+  }
   .phone-left,
   .phone-right {
     position: static;

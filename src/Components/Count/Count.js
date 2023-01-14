@@ -3,7 +3,7 @@ import "./CountStyle.css";
 
 const Count = () => {
   return (
-    <div className="count-section">
+    <div id="count-section">
       <div className="container">
         <div className="count-container">
           <div className="count-left">

@@ -7,7 +7,7 @@ import fimg4 from "../../Images/what-img4.png";
 
 const Feature = () => {
   return (
-    <div className="feature-section">
+    <div id="feature-section">
       <div className="container">
         <div className="feature-container">
           <div className="feature-text">

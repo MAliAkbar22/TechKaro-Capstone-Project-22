@@ -4,7 +4,7 @@ import ProvideImg from "../../Images/provide.svg";
 
 const Provide = () => {
   return (
-    <div className="provide-section">
+    <div id="provide-section">
       <div className="container">
         <div className="provide-container">
           <div className="provide-left">

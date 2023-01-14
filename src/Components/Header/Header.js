@@ -11,18 +11,18 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = (event) => {
-      console.log("window.scrollY", window.scrollY);
+      if ((window.scrollY = 100)) {
+        setClick(false);
+      }
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <header>
+    <header id="header-section">
       <div className="container">
         <div className={click ? "header-container active" : "header-container"}>
           <div className={click ? "logo active" : "logo"}>
@@ -67,7 +67,7 @@ const Header = () => {
           </div>
           <div className="hamburger" onClick={handclick}>
             {click ? (
-              <FaTimes size={20} style={{ color: "#2279fc" }} />
+              <FaTimes size={30} style={{ color: "#2279fc" }} />
             ) : (
               <FaBars size={20} style={{ color: "#2279fc" }} />
             )}

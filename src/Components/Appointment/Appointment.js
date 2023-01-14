@@ -5,7 +5,7 @@ import { FaUserAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const Appointment = () => {
   return (
-    <div>
+    <div id="appointment-section">
       <div className="container">
         <div className="appointment-container">
           <div className="appointment-left">

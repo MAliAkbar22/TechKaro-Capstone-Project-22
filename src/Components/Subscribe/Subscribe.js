@@ -3,7 +3,7 @@ import "./SubscribeStyle.css";
 
 const Subscribe = () => {
   return (
-    <div>
+    <div id="subscribe-section">
       <div className="container">
         <div className="subscribe-container">
           <div className="subscribe-text">

@@ -54,7 +54,7 @@ const CartSection = () => {
   };
 
   return (
-    <div className="cart-section">
+    <div id="cart-section">
       <div className="container">
         <div className="cart-container">
           <div className="cart-top">

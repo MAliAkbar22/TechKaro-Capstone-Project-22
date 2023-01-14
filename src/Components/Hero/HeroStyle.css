@@ -144,6 +144,10 @@
   .hero-left img {
     display: none;
   }
+
+  .hero-left p {
+    padding: 5px;
+  }
   .hero-left {
     margin-left: 0px;
   }

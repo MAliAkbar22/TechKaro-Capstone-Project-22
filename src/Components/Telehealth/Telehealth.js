@@ -4,7 +4,7 @@ import TelehealthImg from "../../Images/telehealth.png";
 
 const Telehealth = () => {
   return (
-    <div>
+    <div id="telehealth-section">
       <div className="container">
         <div className="telehealth-container">
           <div className="telehealth-left-col">

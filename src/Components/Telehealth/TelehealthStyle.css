@@ -68,3 +68,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 430px) {
+  .telehealth-container {
+    flex-direction: column-reverse;
+  }
+}

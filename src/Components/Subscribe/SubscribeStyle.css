@@ -76,13 +76,15 @@
 @media (max-width: 430px) {
   .subscribe-container {
     padding: 70px 5px;
+    background-position: top;
+    background-position-x: left;
   }
   .subscribe-box {
-    flex-direction: column;
+    flex-direction: row;
   }
+
   .subscribe-box input {
-    border: 2px solid #2279fc;
-    margin: 10px;
-    width: 300px;
+    padding: 0px;
+    font-size: small;
   }
 }

@@ -13,7 +13,7 @@ import FooterLogo from "../../Images/logo.png";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer-section">
       <div className="container">
         <div className="footer-container">
           <div className="footer-site-col">

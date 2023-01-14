@@ -6,7 +6,7 @@ import CheckImg from "../../Images/circle-check.png";
 
 const Help = () => {
   return (
-    <div className="help-section">
+    <div id="help-section">
       <div className="container">
         <div className="help-container">
           <div className="help-left">

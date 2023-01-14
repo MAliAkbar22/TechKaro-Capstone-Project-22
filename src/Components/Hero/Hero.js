@@ -6,7 +6,7 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <div id="hero-section">
       <div className="container">
         <div className="hero-container">
           <div className="hero-left">
