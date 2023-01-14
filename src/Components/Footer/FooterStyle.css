@@ -157,7 +157,7 @@
 
 .contact-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 0.6fr 1.5fr;
   gap: 0px;
   font-family: "Nunito Sans";
   font-weight: 400;

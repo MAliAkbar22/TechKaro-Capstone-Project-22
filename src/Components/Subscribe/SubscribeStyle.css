@@ -83,6 +83,10 @@
     flex-direction: row;
   }
 
+  .subscribe-btn {
+    padding: 10px 20px;
+  }
+
   .subscribe-box input {
     padding: 0px;
     font-size: small;

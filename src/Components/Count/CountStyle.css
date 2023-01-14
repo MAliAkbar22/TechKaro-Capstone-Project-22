@@ -1,5 +1,7 @@
 .count-container {
+  background-image: url("../../Images/count-bg.svg");
   background-color: #0841ce;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,25 +10,17 @@
 }
 
 .count-left {
-  background-image: url("../../Images/count-left.png");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: top left;
   display: flex;
   justify-content: center;
 }
 
 .count-right {
-  background-image: url("../../Images/count-right.png");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: top right;
   display: flex;
   justify-content: center;
 }
 
 .counter-card {
-  padding: 15px 50px;
+  padding: 25px 50px;
 }
 
 .counter-card h2 {
