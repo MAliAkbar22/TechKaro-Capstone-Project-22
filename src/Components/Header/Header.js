@@ -10,7 +10,6 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = (event) => {
-      console.log("window.scrollY", window.scrollY);
       if (window.scrollY > 100) {
         setClick(false);
       }
