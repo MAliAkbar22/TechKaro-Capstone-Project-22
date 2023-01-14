@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./HeaderStyle.css";
 import logo from "../../Images/logo.png";
 import { Link } from "react-router-dom";
-// import phone from '../../Images/phone.png'
 import { FaBars, FaPhoneAlt, FaSearch, FaTimes } from "react-icons/fa";
 
 const Header = () => {
@@ -11,7 +10,8 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = (event) => {
-      if ((window.scrollY = 100)) {
+      console.log("window.scrollY", window.scrollY);
+      if (window.scrollY > 100) {
         setClick(false);
       }
     };
